@@ -21,18 +21,18 @@
   box-sizing: border-box;
 }
 
-input {
-  border: none;
-  outline: 1px solid var(--light-gray);
-  border-radius: 6px;
-  padding: 1em 0.5em;
-  margin-bottom: 21px;
-  width: 100%;
+input{
+    border: none;
+    outline: 1px solid var(--light-gray);
+    border-radius: 6px;
+    padding: 1em 0.5em;
+    margin-bottom: 21px;
+    width: 100%;
 }
 
-input::placeholder {
-  font-weight: 500;
-  font-size: 16px;
+input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
 }
 
 h1,
@@ -66,12 +66,12 @@ body {
 }
 
 .image-container {
-  width: 30%;
-  background-image: url("http://localhost:5500/images/bg-sidebar-desktop.jpeg");
-  background-size: cover;
-  background-position: bottom;
-  border-radius: 1em;
-}
+    width: 30%;
+    background-image: url("http://localhost:5500/images/bg-sidebar-desktop.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 1em;
+  }
 
 .form-container {
   width: 60%;
@@ -103,21 +103,21 @@ body {
 }
 
 button {
-  margin-bottom: 1em;
-  align-self: flex-end;
-  outline: none;
-  cursor: pointer;
-  padding: 0.6rem 1.1rem;
-  text-align: center;
-  font-size: 15px;
-  background-color: hsl(213, 96%, 18%);
-  color: hsl(0, 0%, 100%);
-  border: none;
-  border-radius: 7px;
-  text-decoration: none;
+    margin-bottom: 1em;
+    align-self: flex-end;
+    outline: none;
+    cursor: pointer;
+    padding: 0.6rem 1.1rem;
+    text-align: center;
+    font-size: 15px;
+    background-color:hsl(213, 96%, 18%);
+    color: hsl(0, 0%, 100%);
+    border:none;
+    border-radius:7px;
+    text-decoration: none;
 }
 
-label {
-  margin-bottom: 10px;
-  color: var(--marine-blue);
+label{
+    margin-bottom: 10px;
+    color: var(--marine-blue);
 }
