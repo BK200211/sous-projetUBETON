@@ -1,10 +1,10 @@
-/* BLOCK DE MILIEU */
+/* BLOC */
 #block{
     box-shadow: -3px 5px 10px rgba(0, 0, 0, 0.3);
     background-color: #F8F8F8;
     border-radius:10px;
-    height: 480px;
-    width: 680px;
+    height: 447px;
+    width: 39%;
     margin: 4% 33% ;
   }
 h6{
@@ -18,7 +18,7 @@ label{
       display: flex;
       justify-content: center;
       margin: 30px 0 19px 0;
-      color: #69A37C;
+      color: hsl(213, 96%, 18%);
       padding-top: 35px;
     }
     input[name="passe"]::-webkit-input-placeholder {
@@ -72,11 +72,15 @@ label{
   display: flex;
   justify-content: center;
   margin-top: -2%;
+  margin-left: 21%;
 }
-img{
-  width: 150px;
+.box img{
+  background-image: url(/images/bg-sidebar-desktop.jpeg);
+  background-repeat: no-repeat;
+  width: 185px;
   height: 300px;
   float: left;
+  margin-right: 8%;
 }
 .form__input--btnLink {
 outline: none;
@@ -107,13 +111,13 @@ margin-right: 95px;
   padding: 0.6rem 1.1rem;
   text-align: center;
   font-size: 15px;
-  background-color:#F8F8F8;
-  color: rgba(105, 163, 124, 1);
+  background-color:hsl(213, 96%, 18%);
+  color: hsl(0, 0%, 100%);
   border:none;
-  border-radius:30px;
-  box-shadow: 0px 0px 2px 2px  rgba(105, 163, 124, 1);
+  border-radius:9px;
+  box-shadow: hsl(213, 96%, 18%);
   text-decoration: none;
-  margin: 4% 0% 0% 68%;
+  margin: 0% 0% 0% 68%;
 }
 .btn:hover {
   outline-color: transparent;
@@ -121,4 +125,4 @@ margin-right: 95px;
   transition: 0.7s;
   box-shadow: 0 0 0 4px rgb(161, 236, 230);
 }
-/* BLOCK DE MILIEU */
+/* BLOC */
